@@ -19,7 +19,6 @@ public class TaskScheduler {
 			int a = ta.displayMainSelection();
 			System.out.println("--------------------------------");
 			if (a == 1) {
-				System.out.flush();
 				int dependency = -1;
 				int duration = -1;
 
@@ -51,10 +50,8 @@ public class TaskScheduler {
 				System.out.println(t.toString());
 				taskList.put("TASK " + t.getId(), t);
 			} else if (a == 2) {
-				System.out.flush();
 				ta.displayListOfTasks(taskList);
 			} else {
-				System.out.flush();
 				System.out.println("Thank you for using the application.");
 				System.out.println("END");
 				break;
