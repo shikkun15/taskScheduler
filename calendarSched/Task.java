@@ -63,7 +63,7 @@ public class Task {
 	public String toString() {
 		String s = "********************************\n";
 		s += "TASK " + id + "\n-Task Name: " + taskName + "\n-Start Date: " + startDt + "\n-End Date: " + endDt
-				+ "\n-Parent Task=" + parent + "\n";
+				+ "\n-Parent Task: " + parent + "\n";
 		s += "********************************";
 		return s;
 	}
